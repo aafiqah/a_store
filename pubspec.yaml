@@ -1,0 +1,58 @@
+name: a_store
+description: "A new Flutter project."
+
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0-279.0.dev <4.0.0'
+
+#----------------PACKAGES---------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+# Utility Packages
+
+# Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+# State Management
+  get: ^4.6.5
+
+# Product Specific
+
+#----------------PACKAGES END---------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+#----------------LOCAL ASSETS---------------#
+
+  assets:
+    - assets/images
+    - assets/icons/brands
+    - assets/logos
+
+#----------------LOCAL FONTS---------------#
+
+  fonts:
+    - family: Poppins
+      fonts:        
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 508
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 408
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 608
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 808
